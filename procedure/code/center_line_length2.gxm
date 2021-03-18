@@ -129,24 +129,11 @@
             </parameter>
         </task>
     </action>
-    <action id="8" name="v.clip" pos="1165,155" size="125,50">
-        <task name="v.clip">
-            <flag name="overwrite" />
-            <parameter name="input">
-                <value>clc</value>
-            </parameter>
-            <parameter name="clip">
-                <value>reachBuffer@PERMANENT</value>
-            </parameter>
-            <parameter name="output">
-                <value>clcc</value>
-            </parameter>
-        </task>
-    </action>
+
     <action id="9" name="v.db.addtable" pos="1210,230" size="125,50">
         <task name="v.db.addtable">
             <parameter name="map">
-                <value>clcc</value>
+                <value>clc</value>
             </parameter>
             <parameter name="layer">
                 <value>1</value>
@@ -163,7 +150,7 @@
         <task name="v.to.db">
             <flag name="overwrite" />
             <parameter name="map">
-                <value>clcc</value>
+                <value>clc</value>
             </parameter>
             <parameter name="layer">
                 <value>1</value>
@@ -192,7 +179,7 @@
         <task name="v.extract">
             <flag name="overwrite" parameterized="1" />
             <parameter name="input">
-                <value>clcc</value>
+                <value>clc</value>
             </parameter>
             <parameter name="layer">
                 <value>1</value>
